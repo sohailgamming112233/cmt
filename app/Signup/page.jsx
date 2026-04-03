@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { auth } from "../Components/firebase";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { ToastContainer, toast } from "react-toastify";
@@ -86,14 +87,14 @@ const Signup = () => {
                         required
                     />
 
-                    <link href="/Signup">
+                    <Link href="/Signup">
                         <button
                             type="submit"
                             className="bg-white text-black py-3 rounded-xl font-semibold tracking-wide hover:scale-105 hover:opacity-90 transition duration-200 shadow-lg"
                         >
                             Sign Up
                         </button>
-                    </link>
+                    </Link>
 
 
                 </form>
