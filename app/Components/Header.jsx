@@ -107,14 +107,14 @@ const Header = () => {
           ) : (
             <>
               <Link
-                href="/login"
+                href="/Login"
                 className="text-sm text-gray-400 hover:text-white"
               >
                 Login
               </Link>
 
               <Link
-                href="/signup"
+                href="/Signup"
                 className="border border-white px-3 py-1 rounded-full text-sm hover:bg-white hover:text-black"
               >
                 Sign Up

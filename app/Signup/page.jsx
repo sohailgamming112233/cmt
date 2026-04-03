@@ -86,7 +86,7 @@ const Signup = () => {
                         required
                     />
 
-                    <link href="/Login">
+                    <link href="/Signup">
                         <button
                             type="submit"
                             className="bg-white text-black py-3 rounded-xl font-semibold tracking-wide hover:scale-105 hover:opacity-90 transition duration-200 shadow-lg"
